@@ -1,0 +1,20 @@
+{
+	"root": true,
+	"env": {
+		"browser": true,
+		"es6": true,
+		"node": true
+	},
+	"plugins": ["@typescript-eslint"],
+	"parserOptions": {
+		"parser": "@typescript-eslint/parser"
+	},
+	"extends": [
+		"plugin:@typescript-eslint/recommended",
+		"prettier"
+	],
+	"rules": {
+		"array-element-newline": ["error", "consistent"],
+		"array-bracket-newline": ["error", "consistent"]
+	}
+}
