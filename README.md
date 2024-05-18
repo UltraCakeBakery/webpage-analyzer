@@ -1,7 +1,3 @@
-Got it! Let's update the example and API description to reflect initializing a new analyzer instance and passing an array of CSS and JavaScript file contents. Here's an updated version:
-
----
-
 ## webpage-analyzer
 
 **Library for scanning and analyzing a webpage. Insert the HTML, stylesheets, and JavaScript files to get useful information back.**
